@@ -46,3 +46,10 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Yosua Only
+.vscode/
+NuGet/
+omnisharp.json
+CSCI356.code-workspace
+.editorconfig
