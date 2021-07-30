@@ -6,14 +6,14 @@ using UnityEngine.Events;
 
 namespace Unity.FPS.AI
 {
-    [RequireComponent(typeof(Health), typeof(Actor), typeof(NavMeshAgent))]
-    public class EnemyController : MonoBehaviour
-    {
-        [System.Serializable]
-        public struct RendererIndexData
-        {
-            public Renderer Renderer;
-            public int MaterialIndex;
+	[RequireComponent(typeof(Health), typeof(Actor), typeof(NavMeshAgent))]
+	public class EnemyController : MonoBehaviour
+	{
+		[System.Serializable]
+		public struct RendererIndexData
+		{
+			public Renderer Renderer;
+			public int MaterialIndex;
 
             public RendererIndexData(Renderer renderer, int index)
             {
@@ -487,4 +487,3 @@ namespace Unity.FPS.AI
             }
         }
     }
-}
