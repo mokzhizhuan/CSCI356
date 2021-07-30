@@ -27,7 +27,7 @@ namespace Unity.FPS.AI
         public float SelfDestructYHeight = -20f;
 
         [Tooltip("The distance at which the enemy considers that it has reached its current path destination point")]
-        public float PathReachingRadius = 2f;
+        public float PathReachingRadius = 90f;
 
         [Tooltip("The speed at which the enemy rotates")]
         public float OrientationSpeed = 10f;
